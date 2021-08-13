@@ -51,10 +51,12 @@ export default function Signup() {
         
      }
     return (
+        <div className = "signupContainer">
         <MainContainer>
-            <h1>Welcome to Kejani.</h1>
-            <h2>Sign In</h2>
-            {error && <h3>{error}</h3>}
+            <h1>WELCOME TO KEJANI</h1>
+            <h2> FIND YOUR NEW HOME AT YOUR OWN COMFORT</h2>
+            <h3>Sign In</h3>
+            {error && <h4>{error}</h4>}
 
             <FormContainer onSubmit={handleSubmit}>
                 <InputContainer>
@@ -80,6 +82,7 @@ export default function Signup() {
             </FormContainer>
             <p>Already have an account? <Link to="/Log-In/Login">Log In</Link></p>
         </MainContainer>
+        </div>
     )
 }
 

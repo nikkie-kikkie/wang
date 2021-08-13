@@ -20,6 +20,18 @@
   justify-content: space-between;
   align-items: center;
 }
+/*login styling*/
+.loginContainer{
+  background-image: url(images/dillon-kydd-2keCPb73aQY-unsplash.jpg);
+  background-size: cover;
+}
+/*signup styling*/
+.signupContainer{
+  background-image: url(images/r-architecture-KQPEhYweLrQ-unsplash.jpg);
+  background-size: cover;
+}
+
+
 .headerContainer {
   display: flex;
   align-items: center;

@@ -24,10 +24,12 @@ export default function Login() {
         setLoading(false)
     }
     return (
+        <div className ="logincontainer">
         <MainContainer>
-            <h1>Kejani.</h1>
-            <h2>Log In</h2>
-            {error && <h3>{error}</h3>}
+            <h1>KEJANI</h1>
+            <h2>EASY WAY TO FIND YOUR PERFECT HOME</h2>
+            <h3>Log In</h3>
+            {error && <h4>{error}</h4>}
 
             <FormContainer onSubmit={handleSubmit}>
                 <InputContainer>
@@ -44,6 +46,7 @@ export default function Login() {
             </FormContainer>
             <p>Need an account? <Link to="/signup/Signup">Sign Up</Link></p>
         </MainContainer>
+        </div>
     )
 }
 
